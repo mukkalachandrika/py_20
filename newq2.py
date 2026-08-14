@@ -36,10 +36,10 @@ place_order("Pizza")
 
 
 def verify_user(func):
-    def wrapper(*args, **kwargs):
+    def wrapper1(*args, **kwargs):
         print("User verified")
         func(*args, **kwargs)
-    return wrapper
+    return wrapper1
 
 
 def log_transaction(func):
